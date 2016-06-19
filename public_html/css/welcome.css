@@ -1,0 +1,46 @@
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+  margin-top: 0;
+}
+a { text-decoration: none;}
+a:active { text-decoration: none;}
+a:visited { text-decoration: none;}
+a:hover { background-color: lightyellow;}
+
+.hidden {display:none;}
+.ui-helper-hidden-accessible {display:none;}
+.tooltip-inner { max-width: 450px !important;}
+#corp {
+  color: #993333;
+  cursor:help;
+}
+#content {
+  width:600px; margin:auto; top:0; bottom: 0;
+  /*border-top-style: solid;
+  border-top-color: #eeeee0;
+  border-top-width: 12px;*/
+}
+#header {height: 20px; background: #eeeee0; padding-right: 6px;}
+#header a {float: right; font-size: .8em;}
+
+#banner h2 {color: #904A28; margin: 4px 0 0 8px;}
+#banner p {margin:0; font-weight: bold; margin-left:16px;}
+
+#main {padding: 8px;}
+#main-lower {position: absolute; bottom: 10%;}
+
+#main ul {
+  margin-left: -1em;
+  list-style-type: square;
+}
+
+#footer {
+  font-size: .8em;
+  position: absolute; bottom: 0;;
+  background: #eeeee0;
+  padding: 8px;
+  width: inherit;
+}
+#footer p {    margin: 2px;  }
+.tagline {font-size: .8em; font-style: italic;}
+.wordmark {color: #904A28; font-weight:600;}

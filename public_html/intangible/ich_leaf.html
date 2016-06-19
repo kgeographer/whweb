@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>CH Web</title>
+
+<link type="text/css" rel="stylesheet" href="css/layout-default-latest.css" />
+<link type="text/css" rel="stylesheet" href="css/ch-layout.css" />
+<!-- jquery, jquery.layout v 1.3.0 -->
+<script type="text/javascript" src="../lib/jquery/js/jquery-1.8.2.js"></script>
+<script type="text/javascript" src="../lib/jquery/js/jquery-ui-1.9.0.custom.js"></script>
+<script type="text/javascript" src="js/jquery.layout-latest.js"></script>
+<script type="text/javascript" src="js/jquery.layout-debug.js"></script>
+	<!-- Google -->
+<script type="text/javascript"
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBETAcQ2CUDZ1yTRQy7Ago4wNvC1RQyx-M&sensor=false"> </script>
+	<script type="text/javascript" src="https://www.google.com/jsapi?key=AIzaSyBETAcQ2CUDZ1yTRQy7Ago4wNvC1RQyx-M"></script>
+	<script type="text/javascript" src="js/keydragzoom_packed.js"></script>
+	<!-- Leaflet -->
+	<link href="../lib/Leaflet-4.5/dist/leaflet.css" rel="stylesheet" />
+	<link href="../lib/Leaflet-4.5/dist/leaflet.label.css" rel="stylesheet" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="../dist/leaflet.ie.css" /><![endif]-->
+	<script type="text/javascript" src="../lib/Leaflet-4.5/dist/leaflet.js"></script>
+	<script type="text/javascript" src="../lib/Leaflet-4.5/dist/leaflet.label.js"></script>
+<!-- this app -->
+<script type="text/javascript" src="js/core.js"></script>
+<script type="text/javascript" src="js/map_l8.js"></script>
+</head>
+<body onload="init('leaf');">
+<div id="container">
+<!-- manually attach allowOverflow method to pane 
+<div class="ui-layout-north" onmouseover="myLayout.allowOverflow('north')" onmouseout="myLayout.resetOverflow(this)">-->
+<div class="ui-layout-north" id="head">
+	<img src="images/CHWeb-logo.png" alt="" />
+</div>
+
+<!-- allowOverflow auto-attached by option: west__showOverflowOnHover = true -->
+<div class="ui-layout-west">
+	<div class="ui-layout-center">
+		<p>West - Center [words and phrases]<br/>
+		<!--<button id="btnCloseWest" onclick="myLayout.close('west');">
+			Close the whole west side</button>--></p>
+	</div>
+	<div id="map_l" class="ui-layout-south"></div>
+</div>
+
+<div class="ui-layout-south" id="foot">&copy; 2013&nbsp;&nbsp;<img src="images/kgeographer@.png"  align="absmiddle" />
+	<!--<img src="images/logo_sul.png" alt="Stanford University Libraries"
+		width="303" height="25" align="absmiddle"/>-->
+</div>
+
+<div class="ui-layout-center">
+	<div class="ui-layout-center"> Center - Center [ thumbnail gallery ]</div>
+	<div class="ui-layout-south">
+		<h3>"Placial" Cultural Activity</h3>
+		<p>This experimental web application is intended to demonstrate that <strong>place</strong> &ndash; space as experienced by people &ndash; can be represented nicely and usefully in terms of what <em>happens</em> there, what <em>has happened</em> there, and what <em>can happen</em> there. This means textual and visual descriptions focused particularly on <strong>activity</strong> and <strong>events</strong>.</p>
+	</div>
+</div>
+
+</div> <!-- end #container -->
+<script>
+	
+</script>
+</body>
+</html>

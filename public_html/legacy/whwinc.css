@@ -1,0 +1,129 @@
+body {	background-color: #FFFFFF;}
+.tiny {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px}
+.abitbigger { font: 11px Verdana, Arial, Helvetica, sans-serif}
+.small { font: 10px Verdana, Arial, Helvetica, sans-serif}
+.med {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+}
+.medlarge {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #666666;
+
+}
+.almostlarge { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 20px}
+.large { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 24px; letter-spacing: 2px}
+.quitebig { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 28px; letter-spacing: 2px}
+.clear {  color: #999999}
+.clear2 { color: #666666}
+.edge { color: 3399cc; font-weight: bold}
+.edge2 { color: ffcc00; font-weight: bold}
+.edge3 { color: #CC3333; font-weight: bold}
+.smalldot { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px ; color: cc3333}
+.white {  color: #FFFFFF}
+.small_bold { font: bold 10px Verdana, Arial, Helvetica, sans-serif}
+.quitebigwide {
+	letter-spacing: 3px;
+	font: bold 28px Verdana, Arial, Helvetica, sans-serif;
+	color: #3f486e;
+}
+.medlargetitle {
+	font: bold 16px Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing: 3px;
+	background-color: #FFFFCC;
+}
+.smallforlayers { font: 12px Verdana, Arial, Helvetica, sans-serif; padding: 2px 2px}
+.spacer_y {  font-size: 2px; background: #FFFFCC}
+.form_small {  font-size: 7pt}
+.copyright {
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+
+}
+.abitbiggerlink {
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+	color: #336699;
+	text-decoration: none;
+
+}
+.medlargewh {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.medlargedim {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #999999;
+}
+.medlargewhdim {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #999999;
+}
+.abitbiggerbold {
+	font: bold 11px Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing: 2px;
+
+}
+.quitebigwidePale {
+	letter-spacing: 2px;
+	font: bold 28px/normal Verdana, Arial, Helvetica, sans-serif;
+	color: #3f486e;
+
+}
+.abitbiggerserif {
+font: 13px Georgia, "Times New Roman", Times, serif
+}
+.jobtitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: italic;
+
+}
+.medwh {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+a.linknoline {
+	text-decoration: none;
+	color: #336699;
+	font-weight: bold;
+
+
+}
+.medSel {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: faaa64;
+}
+a:link {
+	color: #336699;
+	text-decoration: none;
+}
+a:hover {
+	font-weight: normal;
+	color: faaa64;
+	text-decoration: none;
+
+}
+a:visited {
+	text-decoration: none;
+}
